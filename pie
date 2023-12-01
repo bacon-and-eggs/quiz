@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Content and Survey</title>
+    <style>
+
+
+
+
+
+h1 { color: rgb(200,5,0) ;
+
+font-family: "Times New Roman", Times, serif;
+
+font-size: 60px;
+
+text-align: center;
+
+
+
+}
+
+
+h2 { color: rgb(100,0,0) ;
+
+
+font-size:  40px ;
+font-family: "Times New Roman", Times, Serif;
+text-align: center; 
+
+}
+
+
+#h3 { color: rgb(0,0,0) ;
+
+
+font-size:  40px ;
+font-family: "Times New Roman", Times, Serif;
+text-align: center;
+
+}
+
+
+
+#a-complex1 { color: rgb(192,0,0) ; 
+
+text-decoration: none;
+}
+
+#a-complex2 { color: rgb(0,0,200) ; 
+text-decoration: none; 
+
+}
+
+
+
+
+#a-default { color: rgb(0,0,200) ; 
+
+
+
+}
+
+
+body {
+ 
+  background-color:  rgb(250,205,218) ;
+}
+
+
+
+
+
+
+
+#img1 { display: block;
+	margin-left: auto;
+	margin-right: auto;
+  	width: 100%;
+}
+
+#center {
+  text-align: center;
+  border: 3px 
+rgb( 0,0,100) ;
+
+
+}
+
+
+.center {
+  text-align: center;
+  border: 3px solid white;
+}
+
+
+
+
+
+ul li {
+    background-color:  rgb(245,246,247) ; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-radius: 5px; 
+    text-align: center;
+    list-style: none;
+    
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+#topText {
+  color: white;
+  font-size: 20px;
+  align-self: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  table {
+  font-family: Times New Roman, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 16px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(245,246,247) ;
+}
+
+ol { font-size: 34px; }
+
+
+
+
+
+       
+        }
+        #media-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        video {
+            max-width: 45%;
+        }
+        form {
+            max-width: 400px;
+        }
+    </style>
+</head>
+
+<h1> Pie Survey </h1>
+<body>
+    <div id="media-container">
+        <img src="https://sugarspunrun.com/wp-content/uploads/2021/09/Chocolate-Pie-Recipe-1-of-1.jpg" style="max-width: 320px;">
+      
+
+
+  <video controls width="45%">
+            <source src="pexels-cottonbro-5491481 (2160p).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+
+
+
+        <video >
+            <source src="pexels-maksim-goncharenok-6162074 (Original).mp4" type="video/mp4">
+
+            Your browser does not support the video tag.
+        </video>
+
+
+    </div>
+
+    <form action="mailto:rrichards@student.antilles.vi" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Preference:</label>
+        <div>
+            <input type="radio" id="image" name="preference" value="image" checked>
+            <label for="image">Image</label>
+        </div>
+        <div>
+            <input type="radio" id="video" name="preference" value="video">
+            <label for="video">Video</label>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
