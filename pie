@@ -189,22 +189,17 @@ ol { font-size: 34px; }
 <h1> Pie Survey </h1>
 <body>
     <div id="media-container">
-        <img src="https://sugarspunrun.com/wp-content/uploads/2021/09/Chocolate-Pie-Recipe-1-of-1.jpg" style="max-width: 320px;">
+        <img src="https://sugarspunrun.com/wp-content/uploads/2021/09/Chocolate-Pie-Recipe-1-of-1.jpg" style="max-width: 300px;">
       
 
-
-  <video controls width="45%">
-            <source src="pexels-cottonbro-5491481 (2160p).mp4" type="video/mp4">
-            Your browser does not support the video tag.
+  <video width="300" controls>
+            <source src="pumpkin.mp4" type="video/mp4">
         </video>
+ 
 
 
-
-
-        <video >
-            <source src="pexels-maksim-goncharenok-6162074 (Original).mp4" type="video/mp4">
-
-            Your browser does not support the video tag.
+       <video width="320" autoplay loop muted>
+            <source src="apple.mp4" type="video/mp4">
         </video>
 
 
@@ -220,11 +215,15 @@ ol { font-size: 34px; }
         <label>Preference:</label>
         <div>
             <input type="radio" id="image" name="preference" value="image" checked>
-            <label for="image">Image</label>
+            <label for="image">Chocolate</label>
         </div>
         <div>
             <input type="radio" id="video" name="preference" value="video">
-            <label for="video">Video</label>
+            <label for="video">Pumpkin</label>
+        </div>
+<div>
+            <input type="radio" id="video" name="preference" value="video">
+            <label for="video">Apple</label>
         </div>
 
         <input type="submit" value="Submit">
